@@ -1,0 +1,41 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.free_clasroom{
+    margin-left: 40%;
+}
+.kd a{
+    display: block;
+    padding: 10px;
+    border-bottom: 10px;
+    border-top: 10px;
+    border-left: 20px;
+    border-right: 20px;
+    width: 70%;
+    border: 1px solid #00bae5;
+    transition: 1.2s;
+}
+.kd a:hover{
+    background-color: #00bae5;
+    color: white;
+}
+.clasroom a{
+    color: #00bae5;
+    text-align: center;
+}
+.kd{
+    width: 15%;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+.a{
+    margin-left: 12%;
+}
+body{
+    background: #0e1e25;
+}
+h1{
+    color: white;
+}

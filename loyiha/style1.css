@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/*.language li{
+    border: solid 1px red;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+}
+.langu{
+    background-image: url(./img/download2.png);
+}
+.langr{
+    background-image: linear-gradient(red,white,blue);
+}*/
+body{
+    /*background-color: #161D25;*/
+    background: #0e1e25;
+    overflow-x: hidden;
+}
+.thema a{
+    padding: 1.4ch;
+    display: block;
+    width: 96%;
+    border: solid 1px blue;
+    text-align: end;
+    color: blue;
+}
+
+.mavzular{
+    overflow:scroll;
+    height: 650px;
+    position: relative;
+    right: 20%;
+    width: 100%;
+    overflow-x: hidden;
+    color: blue;
+}
+.mavzular a:hover{
+    background-image: linear-gradient(rgb(22, 7, 231),white,white,rgb(22, 7, 231));
+    border-radius: 20%;
+    transition: 1s;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.thema a:hover{
+    /*border-radius: 80%;*/
+    transition: 1s;
+}
+
+section{
+    position: relative;
+    left: 4%;
+}
+.darslar{
+    position: relative;
+    right: 0%;
+    display: block;
+}
+.darslar iframe{
+    padding-top: 20px;
+    display: block;
+    position: relative;
+}
+section{
+    width: 70%;
+    float: left;
+    position: relative;
+}
+aside{
+    float: left;
+    width: 30%;
+    position: sticky;
+    top: 20px;
+}
+iframe{
+    width: 780px;
+    height: 490px;
+}
+
+.f{
+    border: 1px;
+    position: relative;
+    left: 10%;
+    width: 10%;
+    color: rgb(43, 216, 27);
+}
+h3{
+    border-bottom: 1px solid red;
+    position: relative;
+    right: 400px;
+    bottom: 325px;
+}
